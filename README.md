@@ -38,3 +38,7 @@ Ce projet est une simulation d'un cuiseur à riz utilisant TypeScript.
 	- Aucune alimentation électrique.
 	- Le bouton de démarrage n'est pas active.
 	- Le cuiseur à riz est plein de riz.
+
+5. **standard**
+   ## Conventions de codage
+	Pour maintenir la cohérence dans le code TypeScript, nous suivons les conventions de codage recommandées par Microsoft. Consultez [ici](https://github.com/microsoft/TypeScript/wiki/Coding-guidelines) pour les directives officielles.
