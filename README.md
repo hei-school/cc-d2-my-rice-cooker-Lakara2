@@ -28,3 +28,9 @@ Ce projet contient une classe `RiceCooker` en Python pour simuler un cuiseur à 
 - Le cuiseur à riz simulé permet d'ajouter du riz, de l'eau, de démarrer la cuisson et de maintenir au chaud.
 - Il donne des avertissements si la quantité d'eau est supérieure à deux fois la quantité de riz.
 - Assurez-vous de suivre les instructions affichées dans le terminal pour une utilisation correcte du cuiseur à riz simulé.
+
+5. standard
+
+## Conventions de codage
+
+Nous adhérons aux conventions de codage définies dans le [PEP 8 - Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) pour garantir la lisibilité et la cohérence du code Python.
