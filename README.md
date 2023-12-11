@@ -45,3 +45,8 @@ csc Main.cs RiceCooker.cs
 
 # Exécuter le code compilé
 ./Main.exe
+
+3. **standard de coding**
+## Conventions de codage
+
+Nous suivons les conventions de codage recommandées par Microsoft pour C#. Vous pouvez consulter ces conventions [ici](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions).
