@@ -5,8 +5,10 @@ Ce projet est une simulation d'un cuiseur à riz utilisant TypeScript.
 ## Fonctionnalités
 
 - Ajout de riz et d'eau dans le cuiseur.
+- verification de l'eau et du riz.
+- calcul de l'eau necessaire.
+- calcul du riz necessaire.
 - Démarrage de la cuisson du riz.
-- Maintien au chaud une fois la cuisson terminée.
 - Arrêt de la cuisson.
 
 ## Utilisation
@@ -20,17 +22,19 @@ Ce projet est une simulation d'un cuiseur à riz utilisant TypeScript.
 
 2. **Exécution du code**
 
-Pour lancer le cuiseur à riz, utilisez la commande suivante :
+	Pour lancer le cuiseur à riz, utilisez la commande suivante :
 
 	```bash
-	 npm start
+	npx ts-node main.ts 
 
-3. **Exemple d'utilisation**
+3. **Structure du code**
 
-Modifiez le fichier `index.ts` pour personnaliser les actions du cuiseur à riz. Voici un exemple d'utilisation :
+    - RiceCooker.ts: Contient la classe RiceCooker avec les méthodes pour contrôler le cuiseur à riz.
+    - index.ts: Fichier principal où vous pouvez tester les fonctionnalités du cuiseur à riz.
 
-```typescript
-const myRiceCooker = new RiceCooker();
-myRiceCooker.addRice(2); // Ajouter 2 tasses de riz
-myRiceCooker.addWater(4); // Ajouter 4 tasses d'eau
-myRiceCooker.startCooking(); // Démarrer la cuisson
+4. **les erreurs d'utilisation du rice coocker**
+	
+	- Riz pas assez cuit en raison d'une quantité insuffisante d'eau.
+	- Aucune alimentation électrique.
+	- Le bouton de démarrage n'est pas active.
+	- Le cuiseur à riz est plein de riz.
