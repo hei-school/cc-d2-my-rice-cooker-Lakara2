@@ -30,7 +30,7 @@ Ce projet est une simulation d'un cuiseur à riz utilisant TypeScript.
 3. **Structure du code**
 
     - RiceCooker.ts: Contient la classe RiceCooker avec les méthodes pour contrôler le cuiseur à riz.
-    - index.ts: Fichier principal où vous pouvez tester les fonctionnalités du cuiseur à riz.
+    - main.ts: Fichier principal où vous pouvez tester les fonctionnalités du cuiseur à riz.
 
 4. **les erreurs d'utilisation du rice coocker**
 	
